@@ -34,10 +34,26 @@ header h3 {
 }
 
 .header-links {
-  justify-content: right;
+  display: flex;
+  justify-content: flex-end;
+  margin: 10%;
+}
+
+.header-links img {
+  width: 40%;
+  height: 39%;
+  padding: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border: 3px solid #FFFFFF;
+  border-radius: 50%;
+  opacity: 1;
 }
 
 .hero-text {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
   text-align: left;
   position: absolute;
   top: 50%;
