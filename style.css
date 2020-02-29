@@ -5,21 +5,35 @@ body {
 
 }
 
+.header-h1 {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.h1-name {
+  font-weight: bold;
+}
+
 header h1 {
-  font-family: roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+  font-family: roboto;
   font-size: 13px;
+  margin: 0;
 }
 
 header h2 {
-  font-family: montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-weight: bold;
+  font-family: montserrat;
+  font-weight: bolder;
   font-size: 40px;
+  margin: 0;
 }
 
 header h3 {
   font-family: montserrat;
   font-weight: bold;
   font-size: 24px;
+  margin: 0;
 }
 
 .hero-image {
@@ -36,24 +50,23 @@ header h3 {
 .header-links {
   display: flex;
   justify-content: flex-end;
-  margin: 10%;
+  margin-top: 30%;
+  margin-right: 8%;
+  margin-bottom: 20%;
 }
 
 .header-links img {
-  width: 40%;
-  height: 39%;
   padding: 10px;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: 3px;
+  margin-right: 2px;
   border: 3px solid #FFFFFF;
   border-radius: 50%;
   opacity: 1;
+  object-fit: cover;
+
 }
 
 .hero-text {
-  display: flex;
-  flex-direction: column;
-  margin-top: 30px;
   text-align: left;
   position: absolute;
   top: 50%;
@@ -62,11 +75,20 @@ header h3 {
   color: #FFFFFF;
 }
 
+.profimg-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 40%;
+}
+
 .profile-image {
   width: 150px;
   height: 150px;
+  border: 3px solid #FFFFFF;
   border-radius: 50%;
   margin: 25px;
   object-fit: cover;
-  object-position: center;
+  object-position: bottom;
+  margin-block-end: -10px;
+  margin-right: 25px;
 }
