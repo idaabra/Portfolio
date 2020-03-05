@@ -11,6 +11,7 @@ header h1 {
   font-family: roboto;
   font-size: 13px;
   margin: 0;
+  color: #FDDFE7;
 }
 
 .h1-name {
@@ -51,6 +52,9 @@ header {
 }
 
 .icon-links {
+  justify-content: center;
+  display: flex;
+  align-items: center;
   width: 15px;
   height: 15px;
   border: 3px solid #FFFFFF;
@@ -74,7 +78,7 @@ header {
   border-radius: 50%;
   object-fit: cover;
   object-position: bottom;
-  margin-top: 5px;
+  margin-top: 10px;
 }
 
 .portfolio-section {
@@ -83,7 +87,7 @@ header {
   text-align: left;
   font-family: Montserrat;
   font-size: 17px;
-  padding: 50px 36px;
+  padding: 40px 36px;
 }
 
 .grey {
