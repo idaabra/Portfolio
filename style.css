@@ -3,6 +3,10 @@ body {
   height: 100%;
 }
 
+p {
+  line-height: 1.6;
+}
+
 .header-h1 {
   display: flex;
 }
@@ -11,7 +15,6 @@ header h1 {
   font-family: roboto;
   font-size: 13px;
   margin: 0;
-  color: #FDDFE7;
 }
 
 .h1-name {
@@ -21,7 +24,7 @@ header h1 {
 
 .title-h1 {
   font-family: montserrat;
-  font-weight: bolder;
+  font-weight: bold;
   font-size: 40px;
   margin: 0;
 }
@@ -31,6 +34,23 @@ header h1 {
   font-weight: bold;
   font-size: 24px;
   margin: 0;
+}
+
+h3 {
+  font-family: roboto;
+  font-size: 8px;
+  font-weight: 300;
+  border: solid #FDDFE7;
+  margin: 3px;
+  background-color: #FDDFE7;
+}
+
+h5 {
+  font-family: roboto;
+  font-size: 17px;
+  font-weight: 100;
+  color: #FA382F;
+  margin-bottom: -12px;
 }
 
 header {
@@ -81,6 +101,25 @@ header {
   margin-top: 10px;
 }
 
+.decoration {
+  display: flex;
+  align-items: center;
+}
+
+.line {
+  width: 40px;
+  height: 3px;
+  background: red;
+}
+
+.dot {
+  width: 9px;
+  height: 9px;
+  background: red;
+  border-radius: 50%;
+  margin-left: -3px;
+}
+
 .portfolio-section {
   display: flex;
   flex-direction: column;
@@ -88,30 +127,120 @@ header {
   font-family: Montserrat;
   font-size: 17px;
   padding: 40px 36px;
+  align-items: center;
 }
 
 .grey {
   background-color: #F4F4F4;
 }
 
+.linedot {
+  display: flex;
+  flex-direction: initial;
+  align-items: flex-start;
+}
+
 .caption {
   font-family: Montserrat, bold;
-  font-size: 22px;
-  font-weight: bolder;
+  font-size: 20px;
+  font-weight: bol;
   color: #FFFFFF;
   background: #FA382F;
   padding: 2px 10px;
   text-align: center;
+  width: fit-content;
 }
 
 .project-title {
   font-family: Roboto;
   font-size: 17px;
+  font-weight: bold;
   color: #FA382F;
+}
 
+.tech {
+  text-align: center;
+}
+
+.card-link {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-bottom: 20px;
 
 }
 
-.card-info {
+a:link {
+  color: #000000;
+}
+
+a:visited {
+  color: #000000;
+}
+
+
+.card-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: #FDDFE7;
+  font-family: montserrat;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+
+}
+
+.food {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("assets/foodreview.png");
+  width: 270px;
+  height: 177px;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.weather {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("assets/weatherapp.png");
+  width: 270px;
+  height: 177px;
+  background-position: center;
+}
+
+.tags {
+  display: flex;
   flex-direction: row;
+}
+
+.red-caption {
+  font-family: montserrat;
+  font-size: 18px;
+  font-weight: 600;
+  color: #FA382F;
+  margin-top: 40px;
+  margin-bottom: 5px;
+}
+
+.link-arrows {
+  color: #FA382F;
+  font-weight: 600;
+}
+
+.thought-image {
+  width: 270px;
+  height: 177px;
+}
+
+.thought-article {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.thought-caption {
+  font-weight: bold;
 }

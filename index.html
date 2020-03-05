@@ -6,8 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio</title>
   <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -27,8 +27,7 @@
 
     <div class="text-container">
       <div class="header-h1">
-        <h1>PORTFOLIO:</h1>
-        <h1 class="h1-name">IDA ABRAHAMSSON</h1>
+        <h1>PORTFOLIO:<span class="h1-name">IDA ABRAHAMSSON</span></h1>
       </div>
       <h1 class="title-h1">frontend <br> developer</h1>
       <h1 class="presentation-h1">+ great problem solving skills</h1>
@@ -39,27 +38,107 @@
 
   </header>
 
-  <section class="portfolio-section grey">
+  <section class="portfolio-section grey linedot">
+    <div class="decoration">
+      <div class="line"></div>
+      <div class="dot"></div>
+    </div>
     <p>Hello! I am a creative person with a lot of work experience in problem solving. I also .</p>
   </section>
 
   <section class="portfolio-section">
     <h2 class="caption">TECH</h2>
-    <p>HTML, CSS, Flexbox, JavaScript, ES6, JSX, React, React Hooks,
+    <p class="tech">HTML, CSS, Flexbox, JavaScript, ES6, JSX, React, React Hooks,
       Redux, Node.js, Mongo DB, Web Accessibly, API:s, mob-programming, pair-programming, Github.</p>
   </section>
 
   <section class="portfolio-section grey">
     <h2 class="caption">FEATURED PROJECTS</h2>
-    <img src="assets/weatherapp.png" alt="picture of a weather app project">
-    <div class="card-info">
+    <a class="card-link" href="">
+      <div class="card-img food">
+        <p class="card-text">JAPANESE IN LONDON</p>
+      </div>
+      <p> <span class="project-title">FOOD SITE.</span> Team build of a food review site using an open food review API.
+        <span class="link-arrows">>></span></p>
+      <div class="tags">
+        <h3 class="tag-text">HTML5</h3>
+        <h3 class="tag-text">CSS3</h3>
+        <h3 class="tag-text">SASS</h3>
+        <h3 class="tag-text">JavaScript ES6</h3>
+      </div>
+    </a>
 
-      <p> <span class="project-title">WEATHER APP.</span> Web app build in Javascript using the open weather API. >></p>
-    </div>
+    <a class="card-link" href="">
+      <div class="card-img weather">
+        <p class="card-text">SUNNY SIDE UP</p>
+      </div>
+      <p> <span class="project-title">WEATHER APP.</span> Web app build in Javascript using
+        the open weather API. <span class="link-arrows">>></span></p>
+      <div class="tags">
+        <h3 class="tag-text">HTML5</h3>
+        <h3 class="tag-text">CSS3</h3>
+        <h3 class="tag-text">SASS</h3>
+        <h3 class="tag-text">JavaScript ES6</h3>
+      </div>
+    </a>
+
+    <h4 class="red-caption">
+      OTHER PROJECTS
+    </h4>
+
+    <a class="card-link" href="">
+      <p> <span class="project-title">WEATHER APP.</span> Web app build in Javascript using
+        the open weather API. <span class="link-arrows">>></span></p>
+      <div class="tags">
+        <h3 class="tag-text">HTML5</h3>
+        <h3 class="tag-text">CSS3</h3>
+        <h3 class="tag-text">SASS</h3>
+        <h3 class="tag-text">JavaScript ES6</h3>
+      </div>
+    </a>
+
+    <a class="card-link" href="">
+      <p> <span class="project-title">WEATHER APP.</span> Web app build in Javascript using
+        the open weather API. <span class="link-arrows">>></span></p>
+      <div class="tags">
+        <h3 class="tag-text">HTML5</h3>
+        <h3 class="tag-text">CSS3</h3>
+        <h3 class="tag-text">SASS</h3>
+        <h3 class="tag-text">JavaScript ES6</h3>
+      </div>
+    </a>
+
+    <a class="card-link" href="">
+      <p> <span class="project-title">WEATHER APP.</span> Web app build in Javascript using
+        the open weather API. <span class="link-arrows">>></span> </p>
+      <div class="tags">
+        <h3 class="tag-text">HTML5</h3>
+        <h3 class="tag-text">CSS3</h3>
+        <h3 class="tag-text">SASS</h3>
+        <h3 class="tag-text">JavaScript ES6</h3>
+      </div>
+    </a>
+
   </section>
   <section class="portfolio-section">
+    <h2 class="caption">MY THOUGHTS</h2>
+
+    <img class="thought-image" src="Assets/671efedfde84106f4952e1242aba9bc3/671efedfde84106f4952e1242aba9bc3.png"
+      alt="picture of computer">
+
+    <div class="thought-article">
+      <h5>FEB 2020</h5>
+      <p> <span class="thought-caption"> How to stop being scared: Learning to love code </span> Writing code is less
+        about “just working”.
+        Instead, it’s much more about creativity. It’s similar to creative writing in that the author architecting
+        a story must use an assortment of tools and components (i.e., content) in such a way to satisfy a particular
+        objective. <span class="underlined-arrow"> >> </span> </p>
+
+    </div>
+
   </section>
-  <section class="portfolio-section grey"></section>
+  <section class="portfolio-section grey">
+  </section>
   <section class="portfolio-section"></section>
 
   <footer></footer>
