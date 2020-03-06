@@ -53,6 +53,15 @@ h5 {
   margin-bottom: -12px;
 }
 
+h6 {
+  font-family: roboto;
+  font-size: 17px;
+  font-weight: 100;
+  color: #FA382F;
+  margin-top: -10px;
+  margin-bottom: -10px;
+}
+
 header {
   display: flex;
   flex-direction: column;
@@ -225,6 +234,10 @@ a:visited {
   margin-bottom: 5px;
 }
 
+.more {
+  margin-bottom: 35px;
+}
+
 .link-arrows {
   color: #FA382F;
   font-weight: 600;
@@ -243,4 +256,21 @@ a:visited {
 
 .thought-caption {
   font-weight: bold;
+}
+
+.underlined-arrow {
+  color: #FA382F;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+/* .skills-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+} */
+
+ul {
+  list-style-type: none;
 }
